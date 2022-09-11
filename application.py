@@ -8,6 +8,7 @@ application = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     print("I am inside hello world")
+    print("cursory update to check cicd pipeline")
     return "Continuous Delivery Demo"
 
 
