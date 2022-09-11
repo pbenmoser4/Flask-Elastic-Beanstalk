@@ -6,7 +6,7 @@ phases:
       python: 3.8
   pre_build:
     commands:
-      - python3 venv ~/.venv
+      - python3 -m virtualenv ~/.venv
       - source ~/.venv/bin/activate
       - make install
       - make lint
