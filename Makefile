@@ -10,7 +10,7 @@ lint:
 
 deploy:
 	echo "Listing envs"
-	eb list
+	echo "$(eb list)"
 	echo "Deploying app"
 	eb deploy flask-continuous-delivery-env
 
