@@ -9,8 +9,6 @@ lint:
 	pylint --disable=R,C application.py
 
 deploy:
-	echo "Listing envs"
-	echo "$(eb list)"
 	echo "Deploying app"
 	eb deploy flask-continuous-delivery-env
 
